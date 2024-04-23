@@ -1,0 +1,11 @@
+
+
+I am a dedicated and detail-oriented Full Stack Web Developer with a strong background in object-oriented development using Java. With a Bachelor's degree in Psychology and additional training in Full Stack development, I bring a unique perspective to software development, blending technical expertise with an understanding of user needs and business requirements.
+
+My experience includes working remotely at Health Partners, where I have been involved in migrating existing code and projects to Openshift, creating front-end and back-end pages using JavaScript, Vue, and Java with the Springboot framework. I have also developed tests using Junit and groovy and organized work using Agile methodologies.
+
+I excel in delivering projects on time and with accuracy, thanks to my ability to analyze system requirements, identify bugs, and ensure quality. My experience collaborating with technical teams and presenting solutions to both technical and business users has honed my communication skills, making me an effective team player in any Agile-focused environment.
+
+In addition to my technical skills, I am proficient in Microsoft Word, Excel, PowerPoint, and Adobe programs, with experience in data entry. I am also familiar with SPSS and have a strong understanding of core operating systems and platforms.
+
+Overall, my combination of technical expertise, problem-solving skills, and commitment to continuous learning make me a great fit for roles like a Junior level full stack developer, back end developer or front end developer, where delivering high-quality software is paramount. I am eager to contribute my skills and experience to your team and help drive innovation and excellence in software development.

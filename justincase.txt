@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avis Ebron</title>
+
+     <!--  Bootstrap css file  -->
+     <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="./src/css/all.min.css">
+
+     <!--  custom css file  -->
+     <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    
+    <!-- Start of Header -->
+
+    <header class="header">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                  <a class="navbar-brand" href="#"><img src="src/img/avis-ebron-high-resolution-logo-transparent (1).png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Work History</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+              </nav>
+        </div>
+    </header>
+
+
+    <!-- End of Header -->
+
+    <!-- Start of Main  -->
+    <main class="site-main">
+
+            <!-- Start of Banner -->
+            <section class="site-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 site-title">
+                            <h1 class="title-text text-uppercase">Avis Ebron</h1>
+                            <h4 class="title-text text-uppercase">Full-Stack Developer</h4>
+                            <div class="site-buttons">
+                                <div class="d-flex flex-row flex-wrap">
+                                    <button id="linkedIn" type="button" class="btn button primary-button mr-4 text-uppercase" onclick="visitLinkedIn()"> <a >Hire Me</button>
+                                    <button id="resume" type="button" class="btn button secondary-button text-uppercase" onclick="openResume()">Get Resume</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 banner-image">
+                            <img src="src/img/Banner.jpg" alt="banner img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End of Banner -->
+
+     </main>
+    <!-- End of Main -->
+
+    <!-- Strart of Script -->
+
+    <script>
+      function visitLinkedIn(){
+        window.open("https://www.linkedin.com/in/avisebron/", "_blank"); 
+           }
+
+      function openResume(){
+        window.open('src/files/SoftwareResume.pdf');
+
+        }
+    </script>
+
+
+
+    <!-- Jquery js file -->
+    <script src="/src/js/jquery"></script>
+
+
+    <!-- Bootstrap js file -->
+    <script src="/src/js/bootstrap.min.js"></script>
+
+    <!-- End of Script -->
+</body>
+</html>

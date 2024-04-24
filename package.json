@@ -1,10 +1,13 @@
 {
+    "homepage": "https://Fghddh00.github.io/PortfolioWebsiteReact",
   "name": "portfoliowebsite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
@@ -17,10 +20,12 @@
     "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
+    "@types/node": "^20.12.7",
     "@types/react": "^18.0.27",
     "@types/react-bootstrap": "^0.32.36",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
+    "gh-pages": "^6.1.1",
     "typescript": "^4.9.3",
     "vite": "^4.1.0"
   }

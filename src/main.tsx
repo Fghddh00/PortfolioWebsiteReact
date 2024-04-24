@@ -9,13 +9,13 @@ import AboutMe from './AboutMe';
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   
  <React.StrictMode>
-    <BrowserRouter >
+    <Router >
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
       </Routes>
       <NavbarComponent />
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
 )
 

@@ -1,1 +1,1 @@
-export const baseName = "PortfolioWebsiteReact";
+export const baseName = "/";

@@ -15,7 +15,7 @@ function visitLinkedIn() {
 }
 
 function openResume() {
-  window.open('files/SoftwareResume.pdf');
+  window.open('files/Avis-Ebron-Resume.pdf');
   console.log('Opening resume...');
 }
 

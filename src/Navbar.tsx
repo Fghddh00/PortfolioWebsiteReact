@@ -10,7 +10,7 @@ function NavbarComponent() {
           <Navbar.Brand href={`/${baseName}`}>
             <img
               alt=""
-              src="\img\avis-ebron-high-resolution-logo-transparent (1).png"
+              src="img\avis-ebron-high-resolution-logo-transparent(1).png"
               className="d-inline-block align-top"
             />{' '}
 

@@ -1,6 +1,7 @@
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 import './Navbar.css';
 import { baseName } from './router';
+import { NavLink } from 'react-router-dom';
 
 function NavbarComponent() {
   return (
@@ -15,7 +16,7 @@ function NavbarComponent() {
 
           </Navbar.Brand>
           <Nav className="me-auto">
-          <Nav.Link id='aboutMe' href="about" className="nav-link-big">About Me</Nav.Link>
+          <NavLink id='aboutMe' to="/about" className="nav-link-big">About Me</NavLink>
         </Nav>
         </Container>
       </Navbar>

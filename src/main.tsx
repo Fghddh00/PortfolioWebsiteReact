@@ -11,9 +11,9 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   
  <React.StrictMode>
     <BrowserRouter >
-      <Routes>
-        <Route path={`/${baseName}`} element={<Home />} />
-        <Route path="/about" element={<AboutMe />} />
+      <Routes >
+        <Route path= {`/${baseName}`} element={<Home />} />
+        <Route path= "/about" element={<AboutMe />} />
       </Routes>
       <NavbarComponent />
     </BrowserRouter>

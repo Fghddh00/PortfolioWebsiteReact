@@ -15,7 +15,7 @@ function visitLinkedIn() {
 }
 
 function openResume() {
-  window.open('src/files/SoftwareResume.pdf');
+  window.open('files/SoftwareResume.pdf');
   console.log('Opening resume...');
 }
 

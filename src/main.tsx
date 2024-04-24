@@ -5,17 +5,18 @@ import { BrowserRouter, Route, BrowserRouter as Router, Routes } from 'react-rou
 import './index.css'
 import NavbarComponent from './Navbar';
 import AboutMe from './AboutMe';
+import { baseName } from "./router";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   
  <React.StrictMode>
-    <Router >
+    <BrowserRouter >
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path={`/${baseName}`} element={<Home />} />
         <Route path="/about" element={<AboutMe />} />
       </Routes>
       <NavbarComponent />
-    </Router>
+    </BrowserRouter>
   </React.StrictMode>,
 )
 
